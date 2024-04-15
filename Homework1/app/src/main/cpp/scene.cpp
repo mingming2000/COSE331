@@ -66,7 +66,7 @@ void Scene::setup(AAssetManager* aAssetManager) {
 
      transM = glm::translate(glm::mat4(1.0f), glm::vec3(-startingPoints[0], -startingPoints[1], -startingPoints[2]));
      reversed_transM = glm::translate(glm::mat4(1.0f), glm::vec3(startingPoints[0], startingPoints[1], startingPoints[2]));
-     rotM = glm::rotate(glm::mat4(1.0f), glm::radians(45.0f), glm::vec3(1.0f, 1.0f, 0.0f));
+     rotM = glm::rotate(glm::mat4(1.0f), glm::radians(45.0f), glm::vec3(0.0f, 0.0f, 1.0f));
 
      teapot->worldMatrix = reversed_transM * transpose(rotM) * scaleM * rotM * transM;
     //////////////////////////////
@@ -91,10 +91,23 @@ void Scene::update(float deltaTime) {
      *  file (app/src/main/cpp/Requirement.h).
      */
 
+    static float degree = 0.0f;
     mat4 rotMat;
+    glm::mat4 transM;
+    glm::mat4 reversed_transM;
+    glm::mat4 rotM;
 
-    // rotMat =
-    // teapot->worldMatrix = ;
+    transM = glm::translate(glm::mat4(1.0f), glm::vec3(-startingPoints[0], -startingPoints[1], -startingPoints[2]));
+    reversed_transM = glm::translate(glm::mat4(1.0f), glm::vec3(startingPoints[0], startingPoints[1], startingPoints[2]));
+    rotM = glm::rotate(glm::mat4(1.0f), glm::radians(45.0f), glm::vec3(0.0f, 0.0f, 1.0f));
+    rotMat = glm::rotate(glm::mat4(1.0f), glm::radians(degree), glm::vec3(0.0f, 1.0f, 0.0f));
+    teapot->worldMatrix = reversed_transM * transpose(rotM) * rotMat * rotM * transM;
+
+    degree = degree - deltaTime * 100;
+    if (degree > 360.0) degree = 0.0;
+
+    // for Debugging
+//    LOG_PRINT_DEBUG(">>> %f", degree);
     //////////////////////////////
 
     camera->updateViewMatrix();
