@@ -1,0 +1,13 @@
+[1/2] Building CXX object CMakeFiles/native-lib.dir/src/main/cpp/scene.cpp.o
+In file included from D:\Work\Study\Computer_graphic2024\Homework1_sol\app\src\main\cpp\scene.cpp:1:
+In file included from D:\Work\Study\Computer_graphic2024\Homework1_sol\app\src\main\cpp/scene.h:8:
+D:\Work\Study\Computer_graphic2024\Homework1_sol\app\src\main\cpp/object.h:13:117: warning: implicit conversion of NULL constant to 'GLsizei' (aka 'int') [-Wnull-conversion]
+    Object(Program* program, Material* material, GLfloat* verticesData, GLushort* indicesData, GLsizei verticesSize=NULL, GLsizei indicesSize=NULL, GLenum primitive=GL_TRIANGLES);
+                                                                                                                   ~^~~~
+                                                                                                                    0
+D:\Work\Study\Computer_graphic2024\Homework1_sol\app\src\main\cpp/object.h:13:143: warning: implicit conversion of NULL constant to 'GLsizei' (aka 'int') [-Wnull-conversion]
+    Object(Program* program, Material* material, GLfloat* verticesData, GLushort* indicesData, GLsizei verticesSize=NULL, GLsizei indicesSize=NULL, GLenum primitive=GL_TRIANGLES);
+                                                                                                                                             ~^~~~
+                                                                                                                                              0
+2 warnings generated.
+[2/2] Linking CXX shared library ..\..\..\..\build\intermediates\cmake\debug\obj\x86_64\libnative-lib.so

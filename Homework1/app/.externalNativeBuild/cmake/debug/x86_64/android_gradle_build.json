@@ -1,0 +1,86 @@
+
+{
+	"buildFiles" : [ "D:/Work/Study/Computer_graphic2024/Homework1_sol/app/CMakeLists.txt" ],
+	"cleanCommands" : 
+	[
+		"C:\\Users\\Media\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build D:\\Work\\Study\\Computer_graphic2024\\Homework1_sol\\app\\.externalNativeBuild\\cmake\\debug\\x86_64 --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"native-lib-Debug-x86_64" : 
+		{
+			"abi" : "x86_64",
+			"artifactName" : "native-lib",
+			"buildCommand" : "C:\\Users\\Media\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build D:\\Work\\Study\\Computer_graphic2024\\Homework1_sol\\app\\.externalNativeBuild\\cmake\\debug\\x86_64 --target native-lib",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/Media/AppData/Local/Android/Sdk/ndk/19.2.5345600/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Media/AppData/Local/Android/Sdk/ndk/19.2.5345600/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dnative_lib_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++ -std=c++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "D:/Work/Study/Computer_graphic2024/Homework1_sol/app/src/main/cpp/main.cpp",
+					"workingDirectory" : "D:/Work/Study/Computer_graphic2024/Homework1_sol/app/.externalNativeBuild/cmake/debug/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/Media/AppData/Local/Android/Sdk/ndk/19.2.5345600/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Media/AppData/Local/Android/Sdk/ndk/19.2.5345600/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dnative_lib_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++ -std=c++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "D:/Work/Study/Computer_graphic2024/Homework1_sol/app/src/main/cpp/asset.cpp",
+					"workingDirectory" : "D:/Work/Study/Computer_graphic2024/Homework1_sol/app/.externalNativeBuild/cmake/debug/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/Media/AppData/Local/Android/Sdk/ndk/19.2.5345600/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Media/AppData/Local/Android/Sdk/ndk/19.2.5345600/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dnative_lib_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++ -std=c++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "D:/Work/Study/Computer_graphic2024/Homework1_sol/app/src/main/cpp/scene.cpp",
+					"workingDirectory" : "D:/Work/Study/Computer_graphic2024/Homework1_sol/app/.externalNativeBuild/cmake/debug/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/Media/AppData/Local/Android/Sdk/ndk/19.2.5345600/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Media/AppData/Local/Android/Sdk/ndk/19.2.5345600/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dnative_lib_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++ -std=c++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "D:/Work/Study/Computer_graphic2024/Homework1_sol/app/src/main/cpp/program.cpp",
+					"workingDirectory" : "D:/Work/Study/Computer_graphic2024/Homework1_sol/app/.externalNativeBuild/cmake/debug/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/Media/AppData/Local/Android/Sdk/ndk/19.2.5345600/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Media/AppData/Local/Android/Sdk/ndk/19.2.5345600/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dnative_lib_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++ -std=c++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "D:/Work/Study/Computer_graphic2024/Homework1_sol/app/src/main/cpp/shader.cpp",
+					"workingDirectory" : "D:/Work/Study/Computer_graphic2024/Homework1_sol/app/.externalNativeBuild/cmake/debug/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/Media/AppData/Local/Android/Sdk/ndk/19.2.5345600/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Media/AppData/Local/Android/Sdk/ndk/19.2.5345600/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dnative_lib_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++ -std=c++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "D:/Work/Study/Computer_graphic2024/Homework1_sol/app/src/main/cpp/camera.cpp",
+					"workingDirectory" : "D:/Work/Study/Computer_graphic2024/Homework1_sol/app/.externalNativeBuild/cmake/debug/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/Media/AppData/Local/Android/Sdk/ndk/19.2.5345600/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Media/AppData/Local/Android/Sdk/ndk/19.2.5345600/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dnative_lib_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++ -std=c++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "D:/Work/Study/Computer_graphic2024/Homework1_sol/app/src/main/cpp/light.cpp",
+					"workingDirectory" : "D:/Work/Study/Computer_graphic2024/Homework1_sol/app/.externalNativeBuild/cmake/debug/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/Media/AppData/Local/Android/Sdk/ndk/19.2.5345600/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Media/AppData/Local/Android/Sdk/ndk/19.2.5345600/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dnative_lib_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++ -std=c++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "D:/Work/Study/Computer_graphic2024/Homework1_sol/app/src/main/cpp/object.cpp",
+					"workingDirectory" : "D:/Work/Study/Computer_graphic2024/Homework1_sol/app/.externalNativeBuild/cmake/debug/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/Media/AppData/Local/Android/Sdk/ndk/19.2.5345600/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Media/AppData/Local/Android/Sdk/ndk/19.2.5345600/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dnative_lib_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++ -std=c++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "D:/Work/Study/Computer_graphic2024/Homework1_sol/app/src/main/cpp/material.cpp",
+					"workingDirectory" : "D:/Work/Study/Computer_graphic2024/Homework1_sol/app/.externalNativeBuild/cmake/debug/x86_64"
+				}
+			],
+			"output" : "D:/Work/Study/Computer_graphic2024/Homework1_sol/app/build/intermediates/cmake/debug/obj/x86_64/libnative-lib.so",
+			"toolchain" : "3588546773"
+		}
+	},
+	"toolchains" : 
+	{
+		"3588546773" : 
+		{
+			"cCompilerExecutable" : "C:/Users/Media/AppData/Local/Android/Sdk/ndk/19.2.5345600/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe",
+			"cppCompilerExecutable" : "C:/Users/Media/AppData/Local/Android/Sdk/ndk/19.2.5345600/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe"
+		}
+	}
+}

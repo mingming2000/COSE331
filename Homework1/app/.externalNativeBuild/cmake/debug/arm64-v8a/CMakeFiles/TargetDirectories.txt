@@ -1,0 +1,3 @@
+D:/Work/Study/Computer_graphic2024/Homework1_sol/app/.externalNativeBuild/cmake/debug/arm64-v8a/CMakeFiles/native-lib.dir
+D:/Work/Study/Computer_graphic2024/Homework1_sol/app/.externalNativeBuild/cmake/debug/arm64-v8a/CMakeFiles/edit_cache.dir
+D:/Work/Study/Computer_graphic2024/Homework1_sol/app/.externalNativeBuild/cmake/debug/arm64-v8a/CMakeFiles/rebuild_cache.dir
