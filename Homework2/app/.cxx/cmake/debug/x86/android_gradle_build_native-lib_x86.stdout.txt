@@ -1,0 +1,2 @@
+ninja: Entering directory `E:\MediaETC\TA\2024CG\HW2\code\Homework2_project\Homework2\app\.cxx\cmake\debug\x86'
+ninja: no work to do.
